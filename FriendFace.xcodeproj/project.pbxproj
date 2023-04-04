@@ -72,11 +72,11 @@
 				DB1F5F8F29DBAD14001BE836 /* Models */,
 				DB1F5F6529DA1889001BE836 /* FriendFaceApp.swift */,
 				DB1F5F6729DA1889001BE836 /* ContentView.swift */,
-				DB1F5F8329DBAA62001BE836 /* FriendFace.xcdatamodeld */,
 				DB1F5F7B29DBA034001BE836 /* DataController.swift */,
 				DB1F5F7729DA250B001BE836 /* UserDetailView.swift */,
 				DB1F5F7329DA1B6A001BE836 /* User.swift */,
 				DB1F5F7529DA1C55001BE836 /* Friend.swift */,
+				DB1F5F8329DBAA62001BE836 /* FriendFace.xcdatamodeld */,
 				DB1F5F6929DA188A001BE836 /* Assets.xcassets */,
 				DB1F5F6B29DA188A001BE836 /* Preview Content */,
 			);
