@@ -20,6 +20,8 @@ extension CachedFriend {
     @NSManaged public var name: String?
     @NSManaged public var user: CachedUser?
 
+    var wrappedName: String { name ?? "Unknown" }
+    var wrappedId: UUID { id ?? UUID() }
 }
 
 extension CachedFriend : Identifiable {
