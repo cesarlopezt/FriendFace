@@ -10,7 +10,10 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) var moc
-    @FetchRequest(sortDescriptors: []) var cachedUsers: FetchedResults<CachedUser>
+    @FetchRequest(sortDescriptors: [
+        SortDescriptor(\.isActive, order: .reverse),
+        SortDescriptor(\.name)
+    ]) var cachedUsers: FetchedResults<CachedUser>
     
     var body: some View {
         NavigationView {
